@@ -179,7 +179,7 @@ a {
 }
 
 .nav-link.active::before {
-    background-color: #404BBF;
+    background-color: transparent;
 }
 
 .logo {
