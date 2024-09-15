@@ -148,7 +148,6 @@ a {
 
 .nav-item {
     position: relative;
-    /* Ensure nav-item has relative positioning */
 }
 
 .nav-link {
@@ -161,25 +160,16 @@ a {
 }
 
 .nav-link::after {
-    content: '';
-    /* Add content to the pseudo-element */
+    content: 'test';
     width: 100%;
-    /* Set width to 100% of the parent element */
     height: 4px;
-    /* Define the height of the element */
-    background-color: transparent;
-    /* Initial background color */
+    background-color: #404BBF;
     border-radius: 2px;
-    /* Define border radius */
     position: absolute;
-    /* Position absolutely within the parent */
     left: 0;
-    /* Align left edge with parent */
     bottom: -1px;
-    /* Place it slightly below the text */
-    transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
-    /* Transition for background color */
 }
+
 
 .nav-link:hover::after,
 .nav-link:focus::after {
