@@ -96,6 +96,7 @@ a {
     padding: 16px 32px 16px 32px;
     color: var(--color-bg);
     cursor: pointer;
+    transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .hero-button:hover,
@@ -151,8 +152,7 @@ a {
     padding: 24px 0;
     font-size: 16px;
     position: relative;
-    color: #404bbf;
-    transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+    color: #2E2F42;
 }
 
 .nav-link::after {
@@ -167,7 +167,7 @@ a {
     background-color: #404bbf;
     border-radius: 2px;
     bottom: -1px;
-    transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+    transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .nav-link.active::after {
@@ -217,7 +217,7 @@ a {
 .contact-link:hover,
 .contact-link:focus {
     color: var(--color-hover);
-    color: 250ms cubic-bezier(0.4, 0, 0.2, 1);
+    color: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 
 }
 
@@ -248,17 +248,12 @@ a {
     gap: 48px;
     margin: 0 auto;
     box-sizing: border-box;
-    background-image:
-        linear-gradient(rgba(46, 47, 66, 0.7),
-            /* Прозорий колір поверх зображень */
-            rgba(46, 47, 66, 0.7)),
-        url(../images/people-office\ 1.jpg),
-        /* Перше зображення */
+    background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)),
+        url(../images/people-office-1.jpg),
         url(../images/Dark-bg.jpg);
-    /* Друге зображення */
-    background-repeat: no-repeat, no-repeat, no-repeat;
-    background-position: center, center, center;
-    background-size: cover, cover, cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
     position: absolute;
 }
 
