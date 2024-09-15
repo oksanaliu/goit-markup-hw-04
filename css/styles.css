@@ -394,7 +394,7 @@ a {
     color: #2e2f42;
 }
 
-.team-item {
+.team-list {
     display: flex;
     gap: 24px;
     flex-wrap: wrap;
