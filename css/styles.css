@@ -626,8 +626,14 @@ a {
 
 .footer-info {
     display: flex;
-    align-items: baseline;
+    align-items: flex-start;
+    justify-content: space-between;
     margin-bottom: 32px;
+}
+
+.footer-logo-and-text {
+    display: flex;
+    flex-direction: column;
 }
 
 .footer-logo {
@@ -655,7 +661,8 @@ a {
 
 .footer-socials {
     display: flex;
-    align-items: baseline;
+    flex-direction: column;
+    align-items: flex-start;
 }
 
 .social-media-text {
