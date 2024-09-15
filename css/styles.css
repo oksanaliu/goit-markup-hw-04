@@ -634,18 +634,16 @@ a {
     display: inline-block;
     color: var(--color-footer-logo);
     font-size: 18px;
-    text-align: center;
+    text-align: left;
+    margin-right: 120px;
+    font-family: var(--font-family-logo);
+    font-weight: 700;
+    text-transform: uppercase;
     margin-bottom: 16px;
 }
 
 .footer-web {
     color: var(--color-footer-text);
-}
-
-.footer-logo {
-    font-family: var(--font-family-logo);
-    font-weight: 700;
-    text-transform: uppercase;
 }
 
 .footer-text {
