@@ -412,6 +412,9 @@ a {
 }
 
 .team-member-info {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
     padding: 32px 0;
     text-align: center;
 }
@@ -420,8 +423,6 @@ a {
     margin-bottom: 8px;
     font-size: 20px;
     line-height: 1.11;
-    text-align: center;
-    letter-spacing: var(--letter-spacing-normal);
     text-transform: capitalize;
     color: var(--color-secondary);
 }
@@ -429,8 +430,7 @@ a {
 .team-member-role {
     font-size: var(--font-size-main);
     line-height: var(--line-height-main);
-    letter-spacing: var(--letter-spacing-normal);
-    text-align: center;
+
 }
 
 .social-list {
