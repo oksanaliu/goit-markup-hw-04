@@ -582,7 +582,7 @@ a {
     top: 0;
 }
 
-.portfolio-item:hover .overlay-text {
+.portfolio-item:hover .overapp-text {
     opacity: 1;
 }
 
