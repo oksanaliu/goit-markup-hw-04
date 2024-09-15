@@ -243,6 +243,7 @@ a {
     justify-content: center;
     align-items: center;
     text-align: center;
+    min-height: 100vh;
     box-sizing: border-box;
     background-image:
         linear-gradient(rgba(46, 47, 66, 0.7),
