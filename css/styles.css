@@ -582,6 +582,10 @@ a {
     top: 0;
 }
 
+.portfolio-item:hover .overlay-text {
+    opacity: 1;
+}
+
 .portfolio-image-container img {
     display: block;
     width: 100%;
