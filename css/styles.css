@@ -372,8 +372,9 @@ a {
 
 /* #region Team */
 .section-team {
-    padding: 120px 0;
-    background-color: #F4F4FD;
+    padding-top: 120px;
+    padding-bottom: 120px;
+    background-color: #f4f4fd;
 }
 
 .team-container {
@@ -385,66 +386,56 @@ a {
 
 .team-header {
     margin-bottom: 72px;
+    font-weight: 700;
     font-size: 36px;
     line-height: 1.11;
+    letter-spacing: 0.02em;
     text-align: center;
-    letter-spacing: var(--letter-spacing-normal);
     text-transform: capitalize;
-    color: var(--color-secondary);
+    color: #2e2f42;
 }
 
 .team-list {
-    display: flex;
-    gap: 24px;
-    flex-wrap: wrap;
-}
-
-.team-item {
-    flex: 1 1 calc((100% - 72px) / 4);
-    background-color: var(--color-bg);
+    box-shadow: 0 2px 1px 0 rgba(46, 47, 66, 0.08),
+        0 1px 1px 0 rgba(46, 47, 66, 0.16), 0 1px 6px 0 rgba(46, 47, 66, 0.08);
+    text-align: center;
+    width: calc((100% - 72px) / 4);
     border-radius: 0 0 4px 4px;
-    box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08), 0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);
-
-}
-
-
-.team-member-container {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
+    background-color: #fff;
+    padding: 0px 0px 32px 0px;
+    width: 264px;
+    height: 428px;
 }
 
 .team-member-info {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
     padding: 32px 0;
-    text-align: center;
 }
+
 
 .team-member-name {
     margin-bottom: 8px;
+    font-weight: 500;
     font-size: 20px;
-    line-height: 1.11;
-    text-transform: capitalize;
-    color: var(--color-secondary);
+    line-height: 1.2;
+    letter-spacing: 0.02em;
+    color: #2e2f42;
+    background: #fff;
 }
 
-.team-member-role {
-    font-size: var(--font-size-main);
-    line-height: var(--line-height-main);
 
+.team-member-role {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: #434455;
 }
 
 .social-list {
     display: flex;
     justify-content: center;
     gap: 24px;
-    padding: 0;
-    margin: 0 auto;
-    list-style: none;
-    padding-bottom: 32px;
-
+    margin-top: 8px;
 }
 
 .social-item {
@@ -458,18 +449,19 @@ a {
     justify-content: center;
     width: 100%;
     height: 100%;
-    background-color: var(--color1, #4d5ae5);
+    background-color: #4d5ae5;
     border-radius: 50%;
     transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.social-link:hover,
-.social-link:focus {
-    background-color: #31D0AA;
+.social-icons {
+    fill: #f4f4fd;
 }
 
-.social-icon {
-    fill: var(--color1, #f4f4fd);
+.social-link:hover,
+.social-link:focus,
+.social-link:active {
+    background-color: #404bbf;
 }
 
 
