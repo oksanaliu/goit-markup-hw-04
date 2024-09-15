@@ -611,8 +611,7 @@ a {
 /* #region Footer */
 .footer {
     display: flex;
-    flex-direction: column;
-    align-items: flex-start;
+    justify-content: center;
     padding: 100px 0;
     background-color: var(--color-footer-bg);
 }
@@ -621,14 +620,14 @@ a {
     width: 1158px;
     margin: 0 auto;
     padding: 0 15px;
+    display: flex;
+    justify-content: space-between;
     max-width: 100%;
 }
 
 .footer-info {
     display: flex;
     align-items: flex-start;
-    justify-content: space-between;
-    margin-bottom: 32px;
     gap: 120px;
 }
 
