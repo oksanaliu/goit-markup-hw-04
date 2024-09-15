@@ -243,7 +243,7 @@ a {
     background-repeat: no-repeat, no-repeat, no-repeat;
     background-position: center, center, center;
     background-size: cover, cover, cover;
-    position: absolute;
+    position: relative;
 }
 
 .hero-container {
