@@ -381,9 +381,6 @@ a {
     margin: 0 auto;
     padding: 0 15px;
     max-width: 100%;
-    display: flex;
-    flex-wrap: wrap;
-    gap: 24px;
 }
 
 .team-header {
@@ -397,7 +394,7 @@ a {
     color: #2e2f42;
 }
 
-.team-list {
+.team-item {
     display: flex;
     gap: 24px;
     flex-wrap: wrap;
