@@ -122,12 +122,11 @@ a {
         0 1px 1px 0 rgba(46, 47, 66, 0.16), 0 2px 1px 0 rgba(46, 47, 66, 0.08);
 }
 
-.header-container {
-    width: 1158px;
-    margin: 0 auto;
-    padding: 0 15px;
+.header .header-container {
     display: flex;
+    justify-content: space-between;
     align-items: center;
+    line-height: 1.5;
 }
 
 .nav {
@@ -137,7 +136,7 @@ a {
 
 .nav-list {
     display: flex;
-    align-items: center;
+    font-weight: 500;
     gap: 40px;
 }
 
