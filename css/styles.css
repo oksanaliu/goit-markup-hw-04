@@ -551,6 +551,9 @@ a {
 }
 
 .overapp {
+    display: flex;
+    align-items: center;
+    justify-content: center;
     position: absolute;
     width: 100%;
     height: 100%;
@@ -569,7 +572,6 @@ a {
     font-weight: 400;
     line-height: 1.5;
     letter-spacing: 0.02em;
-    text-align: left;
     color: #F4F4FD;
     padding: 40px 32px;
     text-align: center;
