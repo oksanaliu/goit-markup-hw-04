@@ -641,7 +641,6 @@ a {
     color: var(--color-footer-logo);
     font-size: 18px;
     text-align: left;
-    margin-right: 120px;
     font-family: var(--font-family-logo);
     font-weight: 700;
     text-transform: uppercase;
