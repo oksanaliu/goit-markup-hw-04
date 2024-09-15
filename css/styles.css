@@ -517,6 +517,11 @@ a {
 }
 
 
+.portfolio-image-container {
+    position: relative;
+    overflow: hidden;
+}
+
 .portfolio-content {
     overflow: hidden;
     padding: 32px 16px;
@@ -575,12 +580,7 @@ a {
     transform: translateY(0%);
 }
 
-.portfolio-item img {
-    display: block;
-    width: 100%;
-    height: auto;
-    position: relative;
-}
+
 
 /* #endregion Portfolio */
 
