@@ -644,12 +644,12 @@ a {
     fill: #f4f4fd;
 }
 
-.social-media-icon:hover,
-.social-media-icon:active {
+.social-media-link:hover,
+.social-media-link:active {
     background-color: #31d0aa;
 }
 
-.social-media-icon:focus {
+.social-media-link:focus {
     background-color: #31d0aa;
 }
 
