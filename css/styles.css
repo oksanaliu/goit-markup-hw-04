@@ -627,7 +627,7 @@ a {
 
 .footer-info {
     display: flex;
-    align-items: flex-start;
+    align-items: baseline;
     gap: 120px;
 }
 
@@ -664,7 +664,7 @@ a {
     align-items: flex-start;
 }
 
-.social-media-text {
+.social-media-title {
     font-weight: 500;
     font-size: 16px;
     line-height: 1.5;
