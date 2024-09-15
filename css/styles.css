@@ -186,6 +186,10 @@ a {
     background-color: transparent;
 }
 
+.nav-link.active {
+    color: #404BBF;
+}
+
 .logo {
     display: flex;
     align-items: center;
