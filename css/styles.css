@@ -146,49 +146,55 @@ a {
     gap: 40px;
 }
 
+.nav-item {
+    position: relative;
+    /* Ensure nav-item has relative positioning */
+}
+
 .nav-link {
     padding: 24px 0;
     font-size: 16px;
-    position: relative;
     color: #2E2F42;
     text-decoration: none;
+    position: relative;
     transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .nav-link::after {
     content: '';
-    /* Додає вміст до псевдоелемента */
+    /* Add content to the pseudo-element */
     width: 100%;
-    /* Встановлює ширину на 100% від батьківського елемента */
+    /* Set width to 100% of the parent element */
     height: 4px;
-    /* Визначає висоту елемента */
+    /* Define the height of the element */
     background-color: transparent;
-    /* Початковий колір фону елемента */
+    /* Initial background color */
     border-radius: 2px;
-    /* Визначає радіус закруглення кутів */
+    /* Define border radius */
     position: absolute;
-    /* Встановлює позицію відносно батьківського елемента */
+    /* Position absolutely within the parent */
     left: 0;
-    /* Встановлює відстань від лівого краю батьківського елемента */
+    /* Align left edge with parent */
     bottom: -1px;
-    /* Встановлює відстань від нижнього краю батьківського елемента */
+    /* Place it slightly below the text */
     transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
-    /* Додає перехід для фону */
+    /* Transition for background color */
 }
 
 .nav-link:hover::after,
 .nav-link:focus::after {
     background-color: #404BBF;
-    /* Підкреслення з'являється тільки при фокусі або наведені */
+    /* Underline color on hover or focus */
 }
 
 .nav-link.active::after {
     background-color: transparent;
-    /* При активному стані фоновий колір відсутній */
+    /* No underline for active state */
 }
 
 .nav-link.active {
     color: #404BBF;
+    /* Color for active link */
 }
 
 .logo {
