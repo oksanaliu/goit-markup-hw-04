@@ -233,6 +233,7 @@ a {
 .section-hero {
     max-width: 1440px;
     padding: 188px 0;
+    margin: 0 auto;
     background-color: var(--color-secondary);
     display: flex;
     justify-content: center;
