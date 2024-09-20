@@ -232,7 +232,6 @@ a {
 /* #region Hero */
 .section-hero {
     max-width: 1440px;
-    min-height: 100vh;
     padding: 188px 0;
     background-color: var(--color-secondary);
     display: flex;
